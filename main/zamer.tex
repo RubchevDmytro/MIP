@@ -1,0 +1,42 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[slovak]{babel}
+\usepackage{lmodern}
+\usepackage{url}
+\usepackage{geometry}
+\geometry{margin=2cm}
+\usepackage{bibentry}
+\begin{document}
+
+\title{Zameranie projektu}
+\nobibliography{zameranie}
+\author{Dmytro}
+\date{\today}
+\maketitle
+
+\section*{VV-A1-03: Názov projektu / Project title in English}
+Názov projektu: Vývoj inteligentného systému na optimalizáciu nákupov potravín s porovnaním cien a obchodov \\
+Project title in English: Development of an Intelligent System for Optimizing Grocery Purchases with Price and Store Comparison
+
+\section*{VV-A1-04: Akronym projektu / Acronym of the project}
+Akronym: SMARTSHOP-AI
+
+\section*{VV-A1-09: Anotácia / Annotation }
+Projekt sa zameriava na vývoj  systému pre optimalizáciu nákupov potravín pomocou umelej inteligencie. 
+Systém analyzuje zoznam produktov používateľa, lokalizuje najbližšie obchody (napr. Tesco, Lidl v Slovenskej republike), 
+porovnáva ceny z reálnych zdrojov dát (napr. Numbeo\footnote{\bibentry{numbeo}} alebo oficiálny cenový trackér Ministerstva pôdohospodárstva SR\footnote{\bibentry{mp}}) 
+a navrhuje najlepšie varianty nákupu s ohľadom na cenu, vzdialenosť a ekológiu. Cieľom je ušetriť čas a peniaze spotrebiteľom, 
+znížiť potravinový odpad a podporiť udržateľné nákupy.
+
+V prvej etape sa vykoná analýza existujúcich aplikácií (napr. Grocery Dealz, WiseList) a integrácia zdrojov dát. 
+Druhá etapa zahŕňa vývoj ML algoritmov pre predikciu cien a optimalizáciu trás. 
+Tretia etapa testuje prototyp v reálnom prostredí s meraním úspor (očakávané 10-20\% na nákladoch). 
+Výstupy: Softvérový prototyp, metodika integrácie API a odporúčania pre retail sektor.
+
+Projekt reaguje na rastúce ceny potravín v EÚ (podľa Eurostatu +2.7\% v 2025\footnote{\bibentry{eurostat}}) a digitalizáciu. 
+Originalita: Kombinácia geolokácie s ekológiou a personalizáciou. 
+Prínosy: Ekonomické úspory pre domácnosti, podpora lokálnych obchodov a znižovanie emisií CO2.
+
+\bibliographystyle{plain}
+\end{document}
