@@ -1,42 +1,34 @@
-\documentclass[a4paper,12pt]{article}
+\documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[slovak]{babel}
-\usepackage{lmodern}
-\usepackage{url}
 \usepackage{geometry}
-\geometry{margin=2cm}
-\usepackage{bibentry}
+\geometry{a4paper, margin=1in}
+\usepackage{hyperref}
+\usepackage{url}
+
+\title{Focus of the project}
+\author{Dmytro Rubchev, Fernando Andradas González, Illia Shtenda, Stanislav Sasyn}
+\date{October 06, 2025}
+
 \begin{document}
 
-\title{Zameranie projektu}
-\nobibliography{zameranie}
-\author{Dmytro}
-\date{\today}
 \maketitle
 
 \section*{VV-A1-03: Názov projektu / Project title in English}
-Názov projektu: Vývoj inteligentného systému na optimalizáciu nákupov potravín s porovnaním cien a obchodov \\
-Project title in English: Development of an Intelligent System for Optimizing Grocery Purchases with Price and Store Comparison
+
+Názov projektu: Vývoj inteligentného systému dronov na monitorovanie poľnohospodárstva s analýzou AI \\
+Project title in English: Development of an Intelligent Drone System for Agricultural Monitoring with AI Analysis
 
 \section*{VV-A1-04: Akronym projektu / Acronym of the project}
-Akronym: SMARTSHOP-AI
 
-\section*{VV-A1-09: Anotácia / Annotation }
-Projekt sa zameriava na vývoj  systému pre optimalizáciu nákupov potravín pomocou umelej inteligencie. 
-Systém analyzuje zoznam produktov používateľa, lokalizuje najbližšie obchody (napr. Tesco, Lidl v Slovenskej republike), 
-porovnáva ceny z reálnych zdrojov dát (napr. Numbeo\footnote{\bibentry{numbeo}} alebo oficiálny cenový trackér Ministerstva pôdohospodárstva SR\footnote{\bibentry{mp}}) 
-a navrhuje najlepšie varianty nákupu s ohľadom na cenu, vzdialenosť a ekológiu. Cieľom je ušetriť čas a peniaze spotrebiteľom, 
-znížiť potravinový odpad a podporiť udržateľné nákupy.
+Akronym: AGRI-DRONE-AI
 
-V prvej etape sa vykoná analýza existujúcich aplikácií (napr. Grocery Dealz, WiseList) a integrácia zdrojov dát. 
-Druhá etapa zahŕňa vývoj ML algoritmov pre predikciu cien a optimalizáciu trás. 
-Tretia etapa testuje prototyp v reálnom prostredí s meraním úspor (očakávané 10-20\% na nákladoch). 
-Výstupy: Softvérový prototyp, metodika integrácie API a odporúčania pre retail sektor.
+\section*{VV-A1-09: Anotácia / Annotation}
 
-Projekt reaguje na rastúce ceny potravín v EÚ (podľa Eurostatu +2.7\% v 2025\footnote{\bibentry{eurostat}}) a digitalizáciu. 
-Originalita: Kombinácia geolokácie s ekológiou a personalizáciou. 
-Prínosy: Ekonomické úspory pre domácnosti, podpora lokálnych obchodov a znižovanie emisií CO2.
+The project focuses on the development of a drone-based system for agricultural monitoring using artificial intelligence. The system deploys drones to collect aerial data on crops, analyzes it in real-time using AI algorithms to detect pests, diseases, nutrient deficiencies, and irrigation needs, and provides actionable recommendations to farmers. It integrates data from sources like satellite imagery (e.g., Copernicus EU program\footnote{European Union. Copernicus Programme. 2025. \url{https://www.copernicus.eu/}}) and local weather stations (e.g., Slovak Hydrometeorological Institute\footnote{Slovak Hydrometeorological Institute. Weather Data Services. 2025. \url{https://www.shmu.sk/}}), optimizing for precision agriculture in the Slovak Republic. The goal is to increase crop yields by 15-25\%, reduce pesticide use, and promote sustainable farming practices.
 
-\bibliographystyle{plain}
+In the first phase, an analysis of existing drone technologies (e.g., DJI Agriculture drones, PrecisionHawk) and AI frameworks will be conducted. The second phase involves developing AI models for image recognition and predictive analytics. The third phase tests the prototype in real fields, measuring improvements in efficiency (expected 20\% yield increase). Outputs: Software prototype, AI integration methodology, and guidelines for agricultural sector adoption.
+
+The project addresses the growing drone market in agriculture in the EU (projected growth to €7.46 billion in 2025 according to market reports\footnote{Grand View Research. Agriculture Drones Market Size, Share \& Growth Report 2030. 2025. \url{https://www.grandviewresearch.com/industry-analysis/agriculture-drones-market}}) and climate challenges. Originality: Combination of multi-spectral drone imaging with AI-driven predictive modeling and edge computing. Benefits: Economic savings for farmers, environmental protection through reduced chemical use, and support for EU Green Deal objectives.
+
 \end{document}
