@@ -1,20 +1,5 @@
 
 \documentclass[11pt]{article}
-
-% --- PAQUETES ESENCIALES ---
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[a4paper, margin=1in]{geometry} % Márgenes
-
-% --- PAQUETES PARA SÍMBOLOS Y LISTAS DEL TXT ---
-% (Necesarios para € , >= , -> , etc.)
-\usepackage{amsmath, amssymb}   % Para $\geq$, $\to$, $\approx$, $\downarrow$
-\usepackage[gen]{eurosym}     % Para \euro
-\usepackage{enumitem}         % Para listas (a), (b), (c)
-\usepackage{booktabs}         % Para líneas de tabla
-\usepackage{longtable}        % Para la tabla de dispositivos
-\usepackage{array}            % Para formato de columnas de tabla
-
 % Define un tipo de columna para la tabla
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 
