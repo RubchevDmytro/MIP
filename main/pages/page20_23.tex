@@ -1,5 +1,105 @@
-% Contenido de las Páginas 20-23 (Material Intent)
-\section*{Pages 20-23 – VV-F – MATERIAL INTENT OF THE PROJECT}
+%SLOVAK
+\section*{VV-F – MATERIÁLNY ZÁMER PROJEKTU}
+
+\section{Excelentnosť}
+
+Projekt „Vývoj inteligentného dronového systému na poľnohospodárske monitorovanie s AI analýzou (AGRI-DRONE-AI)“ si kladie za cieľ vytvoriť integrovanú platformu, ktorá kombinuje multispektrálne snímanie dronmi, spracovanie na okraji AI a fúziu údajov zo satelitného počasia na zlepšenie presného poľnohospodárstva v Slovenskej republike.
+
+\subsection*{Originalita spočíva v:}
+\begin{enumerate}[label=(\alph*)]
+    \item Inference AI v reálnom čase na palube drona pre detekciu škodcov, chorôb a stresu spôsobeného nedostatkom živín priamo v jednotke okrajového výpočtu drona;
+    \item Prediktívna analytika, ktorá spája snímky z dronov s dátami zo satelitov Copernicus EU a miestnych meteorologických staníc;
+    \item Akčné agronomické palubné dosky poskytujúce odporúčania pre farmárov na úrovni polí do niekoľkých minút od letu.
+\end{enumerate}
+
+Súčasné riešenia pre poľnohospodárske drony (napr. DJI Agriculture, PrecisionHawk) väčšinou poskytujú surové snímky, ktoré si vyžadujú offline spracovanie; náš koncept skracuje cyklus rozhodovania a znižuje závislosť od externých IT infraštruktúr.
+
+\subsection*{Stav techniky}
+Očakáva sa, že trh s poľnohospodárskymi dronmi v EÚ dosiahne do roku 2025 hodnotu \euro 7.46 miliardy EUR.. Výskumy ukazujú, že včasná detekcia škodcov môže znížiť stratu výnosov o 15-25 \% a znížiť spotrebu pesticídov až o 30 \%. Tím vychádza z predchádzajúcich národných pilotných štúdií v multispektrálnom monitorovaní pšenice a kukurice (2023-24) a interného prototypu na rozpoznávanie chorôb listov na základe CNN (accuracy $\approx 92\,\%$)
+.
+\subsection*{Ciele projektu:}
+\begin{itemize}
+    \item Navrhnúť architektúru senzorov dronov a okrajovú AI pipeline na hodnotenie zdravia plodín.
+    \item Vyvinúť a trénovať modely počítačového videnia na rozpoznávanie škodcov/chorôb a stresu spôsobeného zavlažovaním.
+    \item Integrovať prediktívne modely s dátami z meteorologických/poľnohospodárskych senzorov pre pokyny na zlepšenie výnosu.
+    \item Overiť prototyp na minimálne 200 ha pilotných fariem v západnom a východnom Slovensku.
+    \item Dodať overený softvérový prototyp, metodiku integrácie AI a smernice pre implementáciu najlepších praktík.
+\end{itemize}
+
+\subsection*{Fezibilita}
+Dostupnosť komerčných dronov a GPU, plus predchádzajúce dataset-y nášho laboratória, robí tieto ciele realistické v priebehu 36 mesiacov.
+
+\subsection*{Kľúčové výstupy hlavného výskumníka (posledných 5 rokov – ilustratívne):}
+\begin{itemize}
+    \item Prototyp CNN pre detekciu pšeničnej hrdze (TRL 5 $\to$ pokles straty výnosu $\downarrow 18\,\%$).
+    \item Spoluautor 2 článkov v rámci programu Horizon EÚ na tému AI v presnom poľnohospodárstve.
+    \item Open-source algoritmus na fúziu vlhkosti pôdy (prijatý 3 regionálnymi start-upmi).
+\end{itemize}
+
+\subsection*{Kompetencie partnerov:}
+\begin{itemize}
+    \item Žiadateľská organizácia prináša testovacie polia a tím UAV-pilotov.
+    \item Spolupracujúca univerzita prispieva odbornými znalosťami v oblasti hlbokého učenia a diaľkového snímania.
+    \item Priemyselný partner (AgroTech Solutions s.r.o.) poskytne poradenstvo pri prenosu na trh.
+\end{itemize}
+
+\subsection*{Zapojenie mladých výskumníkov:}
+4 PhD študentov (AI \& Robotika, vek $\leq 30$) a 2 MSc študenti v geoinformatike sa zapoja do označovania dát, overovania v teréne a úloh šírenia informácií.
+
+
+\section{Dopad}
+
+
+Očakáva sa, že systém zvýši výnosy plodín o 15-25 \% a zníži spotrebu pesticídov o 20-30 \%, čo prinesie hmatateľné ekonomické úspory (nižšie náklady na chemikálie, vyššia produkcia) a environmentálne výhody (menšie znečistenie pôdy a vody, príspevok k Zelenému paktu EÚ).
+
+\subsection*{Pre slovenských farmárov}
+Rýchlejšia detekcia nákaz a chorôb môže ušetriť až \euro 150-200/ha na nákladoch na ošetrenie.
+
+\subsection*{Pre trh poľnohospodárských technológii}
+Vytvára prenosnú metodiku pre ďalšie regióny EÚ a podporuje vznikajúce služby pre klimaticky inteligentné poľnohospodárstvo.
+
+\subsection*{Spoločenské prínosy}
+Zlepšená potravinová bezpečnosť, kvalitnejšie produkty, zníženie emisií skleníkových plynov z nadmernej hnojenia a nové kvalifikované pracovné miesta v oblasti prevádzky dronov a AI dátových služieb.
+
+\subsection*{Maximalizácia výsledkov a komunikácia}
+\begin{itemize}
+    \item Verejné dni poľa s poľnohospodárskymi organizáciami každú sezónu;
+    \item Open-access publikácia hlavnej metodiky AI po kontrole IP;
+    \item Workshopy s Ministerstvom pôdohospodárstva a regionálnymi družstvami pre usmernenia pri implementácii;
+    \item Popularizačné vedecké články a krátke vysvetľujúce videá pre verejnosť.
+\end{itemize}
+
+
+\section{Implementation}
+
+\subsection*{Pracovný plán \& ciele (36 mesiacov):}
+\begin{description}
+    \item[P1 (M1-M6):] Prieskum trhu a dizajn systému $\to$ Špecifikácia pre drony + AI pipeline.
+    \item[P2 (M4-M14):] Zber dát (multispektrálne lety, sieť senzorov pôdy) $\to$ Usporiadaný označený dataset $\geq 50$k snímok.
+    \item[P3 (M8-M18):] Vývoj a tréning modelov $\to$ Základný AI model (mAP $\geq 0.80$) pre detekciu škodcov/chorôb.
+    \item[P4 (M15-M26):] Integrácia hardvéru a nasadenie edge-AI $\to$ Prototyp UAV-AI platformy TRL 6.
+    \item[P5 (M20-M34):] Pilotné skúšky na 200 ha farmách $\to$ Overený výkon ($\geq 20$\% zisk výnosu oproti kontrolám).
+    \item[P6 (M30-M36):] Finálna optimalizácia, používateľské príručky a balík pre prenos technológií$\to$ Softvérový prototyp + smernice..
+\end{description}
+
+\subsection*{Riadenie projektu}
+Riaditeľská komisia (PI + jeden zástupca každého partnera); mesačné hodnotenie pokroku; monitorovanie rizík pomocou cloudového PM nástroja.
+
+\subsection*{Riziká a zmiernenie}
+\begin{itemize}
+    \item Zlé počasie obmedzujúce lety dronov $\to$ nárazová doba a alternatívne testovacie zariadenia v interiéri.
+    \item Nedostatočné označené dáta $\to$ semi-syntetická augmentácia dát a transfer-learning.
+    \item Porucha hardvéru $\to$ redundantná jednotka drona + servisná zmluva.
+\end{itemize}
+
+\subsection*{Adekvátnosť rozpočtu}
+45 \% vybavenie (drony, GPU server, senzory), 40 \% personál (AI výskumníci, odborníci na poľnohospodárstvo), 15 \% cestovanie, šírenie a popularizácia – v súlade s uvedenými cieľmi a pokrokom TRL.
+
+\subsection*{Existujúca infraštruktúra}
+Žiadateľ vlastní 2 testovacie polia (každé 30 ha), povolenie na lety dronov a základnú flotilu dronov; univerzitný partner prevádzkuje AI výpočtový cluster (200 TFLOPS) a laboratórium na spektrálnu kalibráciu.
+%ENGISH
+\newpage
+\section*{VV-F – MATERIAL INTENT OF THE PROJECT}
 
 \section{Excellence}
 
