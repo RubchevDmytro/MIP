@@ -21,23 +21,23 @@
 \hline
 \textbf{Kategória nákladov / Cost Category} & \textbf{2026} & \textbf{2027} & \textbf{2028} & \textbf{Spolu / Total} \\
 \hline
-01 Bežné priame náklady / Direct running costs &  &  &  &  \\
-02 Mzdové náklady a ostatné osobné náklady / Wage and other personal costs &  &  &  &  \\
-03 Zdravotné a sociálne poistenie / Social and health insurance &  &  &  &  \\
-04 Cestovné náklady / Travel costs &  &  &  &  \\
-05 Materiál / Material &  &  &  &  \\
-06 Služby / Services &  &  &  &  \\
-07 Energie, voda, stočné, komunikácie / Energy, water, sewer, communication &  &  &  &  \\
-08 Náklady na popularizáciu / Popularization costs &  &  &  &  \\
-09 Ostatné bežné náklady / Other current costs &  &  &  &  \\
+01 Bežné priame náklady / Direct running costs & 3\,000 & 4\,000 & 3\,000 & 10\,000 \\
+02 Mzdové náklady a ostatné osobné náklady / Wage and other personal costs & 30\,000 & 35\,000 & 35\,000 & 100\,000 \\
+03 Zdravotné a sociálne poistenie / Social and health insurance & 7\,000 & 8\,000 & 5\,000 & 20\,000 \\
+04 Cestovné náklady / Travel costs & 4\,000 & 4\,000 & 2\,000 & 10\,000 \\
+05 Materiál / Material & 20\,000 & 7\,000 & 3\,000 & 30\,000 \\
+06 Služby / Services & 5\,000 & 6\,000 & 4\,000 & 15\,000 \\
+07 Energie, voda, stočné, komunikácie / Energy, water, sewer, communication & 2\,000 & 2\,000 & 1\,000 & 5\,000 \\
+08 Náklady na popularizáciu / Popularization costs & 1\,000 & 2\,000 & 2\,000 & 5\,000 \\
+09 Ostatné bežné náklady / Other current costs & 3\,000 & 4\,000 & 3\,000 & 10\,000 \\
 \hline
-Celkové náklady z APVV / Total costs from APVV &  &  &  &  \\
+Celkové náklady z APVV / Total costs from APVV & \textbf{75\,000} & \textbf{72\,000} & \textbf{53\,000} & \textbf{200\,000} \\
 \hline
-Štátne (mimo zdroje APVV) / State (excluding APVV sources) &  &  &  &  \\
-Zahraničné / Foreign &  &  &  &  \\
-Súkromné / Private &  &  &  &  \\
+Štátne (mimo zdroje APVV) / State (excluding APVV sources) & 0 & 0 & 0 & 0 \\
+Iné verejné zdroje / Other public sources & 0 & 0 & 0 & 0 \\
+Súkromné / Private & 0 & 0 & 0 & 0 \\
 \hline
-Celkové náklady / Total project costs &  &  &  &  \\
+Celkové náklady / Total project costs & \textbf{75\,000} & \textbf{72\,000} & \textbf{53\,000} & \textbf{200\,000} \\
 \hline
 \end{tabular}
 \end{center}
