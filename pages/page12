@@ -1,0 +1,86 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[slovak]{babel}
+\usepackage{array}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{caption}
+\usepackage{booktabs}
+
+\begin{document}
+
+\centering
+\section*{Rozpis predpokladaných nákladov uplatňovaných z APVV / List of expected costs covered by APVV}
+
+\small
+\begin{center}
+\begin{tabular}{|p{13cm}|}
+\hline
+02 Mzdové náklady a ostatné osobné náklady \\
+\hline
+\textbf{100\,000} \\
+\hline
+02 Wage and other personal costs \\
+\hline
+\textbf{100\,000} \\
+\hline
+03 Zdravotné a sociálne poistenie \\
+\hline
+\textbf{20\,000} \\
+\hline
+03 Social and health insurance \\
+\hline
+\textbf{20\,000} \\
+\hline
+04 Cestovné náklady \\
+\hline
+\textbf{10\,000} \\
+\hline
+04 Travel costs \\
+\hline
+\textbf{10\,000} \\
+\hline
+05 Materiál \\
+\hline
+\textbf{30\,000} \\
+\hline
+05 Material \\
+\hline
+\textbf{30\,000} \\
+\hline
+06 Služby \\
+\hline
+\textbf{10\,000} \\
+\hline
+06 Services \\
+\hline
+\textbf{10\,000} \\
+\hline
+07 Energie, vodné, stočné, komunikácie \\
+\hline
+\textbf{5\,000} \\
+\hline
+07 Energy, water, communications \\
+\hline
+\textbf{5\,000} \\
+\hline
+08 Náklady na popularizáciu \\
+\hline
+\textbf{5\,000} \\
+\hline
+08 Popularization costs \\
+\hline
+\textbf{5\,000} \\
+\hline
+09 Bežné nepriame náklady \\
+\hline
+\textbf{10\,000} \\
+\hline
+09 Indirect costs \\
+\hline
+\textbf{10\,000} \\
+\hline
+\end{tabular}
+\end{center}
+
+\end{document}

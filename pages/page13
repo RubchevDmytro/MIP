@@ -1,0 +1,43 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[slovak]{babel}
+\usepackage{array}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{caption}
+\usepackage{booktabs}
+
+\begin{document}
+\centering
+\section*{VV–C: Rozpočet projektu v EUR – Spoluriešiteľská organizácia/ Budget of the project in EUR – Cooperating organisation}
+\small
+\begin{center}
+\begin{tabular}{|>{\raggedright\arraybackslash}p{8.5cm}|r|r|r|r|}
+\hline
+\textbf{Kategória nákladov / Cost Category} & \textbf{2026} & \textbf{2027} & \textbf{2028} & \textbf{Celkovo / Total} \\
+\hline
+01 Bežné priame náklady / Direct running costs & 0 & 0 & 0 & 0 \\
+02 Mzdové náklady a ostatné osobné náklady / Wage and other personal costs & 0 & 0 & 0 & 0 \\
+03 Zdravotné a sociálne poistenie / Social and health insurance & 0 & 0 & 0 & 0 \\
+04 Cestovné náklady / Travel costs & 0 & 0 & 0 & 0 \\
+05 Materiál / Material & 0 & 0 & 0 & 0 \\
+06 Služby / Services & 0 & 0 & 0 & 0 \\
+07 Energie, voda, stočné, komunikácie / Energy, water, sewer, communication & 0 & 0 & 0 & 0 \\
+08 Náklady na popularizáciu / Popularization costs & 0 & 0 & 0 & 0 \\
+09 Bežné nepriame náklady / Indirect costs  & 0 & 0 & 0 & 0 \\
+10 Bežné náklady spolu / Total running costs & 0 & 0 & 0 & 0 \\
+\hline
+Celkové náklady z APVV / Total costs from APVV & 0 & 0 & 0 & 0 \\
+\hline
+Spolufinancovanie /  Financing from other sources & 0 & 0 & 0 & 0 \\
+\hline
+Štátne (mimo zdroje APVV) / State (excluding APVV sources) & 0 & 0 & 0 & 0 \\
+Zahraničné / Foreign & 0 & 0 & 0 & 0 \\
+Súkromné / Private & 0 & 0 & 0 & 0 \\
+\hline
+Celkové náklady / Total project costs & 0 & 0 & 0 & 0 \\
+\hline
+\end{tabular}
+\end{center}
+
+\end{document}

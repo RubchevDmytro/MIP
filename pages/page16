@@ -1,0 +1,50 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[slovak]{babel}
+\usepackage{array}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{caption}
+\usepackage{booktabs}
+
+\begin{document}
+
+\centering
+\section*{VV–D 01: Harmonogram projektu}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|p{8cm}|}
+\hline
+\textbf{Začiatok etapy} & \textbf{Koniec etapy} & \textbf{Názov etapy} \\
+\hline
+01.01.2026 & 31.12.2026 & Analýza požiadaviek, návrh metodiky a príprava technického riešenia \\
+\hline
+01.01.2027 & 31.12.2027 & Vývoj, testovanie a validácia prototypu vrátane terénnych experimentov \\
+\hline
+01.01.2028 & 31.12.2028 & Implementácia, vyhodnotenie výsledkov, publikácie a popularizácia výstupov \\
+\hline
+\end{tabular}
+\end{table}
+
+\vspace{1cm}
+
+\centering
+\section*{VV–D 02: Project Schedule}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|p{8cm}|}
+\hline
+\textbf{Begin of phase} & \textbf{End of phase} & \textbf{Phase name} \\
+\hline
+01.01.2026 & 31.12.2026 & Requirements analysis, methodology design and preparation of technical solution \\
+\hline
+01.01.2027 & 31.12.2027 & Development, testing and validation of prototype including field experiments \\
+\hline
+01.01.2028 & 31.12.2028 & Implementation, evaluation of results, publications and popularization \\
+\hline
+\end{tabular}
+\end{table}
+
+\end{document}
