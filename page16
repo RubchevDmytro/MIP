@@ -1,1 +1,50 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[slovak]{babel}
+\usepackage{array}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{caption}
+\usepackage{booktabs}
 
+\begin{document}
+
+\centering
+\section*{VV–D 01: Harmonogram projektu}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|p{8cm}|}
+\hline
+\textbf{Začiatok etapy} & \textbf{Koniec etapy} & \textbf{Názov etapy} \\
+\hline
+ &  &  \\
+\hline
+ &  &  \\
+\hline
+ &  &  \\
+\hline
+\end{tabular}
+\end{table}
+
+\vspace{1cm}
+
+\centering
+\section*{VV–D 02: Project Schedule}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|p{8cm}|}
+\hline
+\textbf{Begin of phase} & \textbf{End of phase} & \textbf{Phase name} \\
+\hline
+ &  &  \\
+\hline
+ &  &  \\
+\hline
+ &  &  \\
+\hline
+\end{tabular}
+\end{table}
+
+\end{document}
