@@ -15,7 +15,9 @@
 \usepackage{array}  
 \usepackage[T1]{fontenc}   
 \usepackage[slovak]{babel}
-\usepackage{caption}             
+\usepackage{caption}         
+\usepackage{natbib}
+  
 
 
 % Type of colum
@@ -48,6 +50,10 @@
 \include{pages/page17}
 \include{pages/page18_19}
 \include{pages/page20_23}
+\nocite{*}
+\section{References}
+\bibliographystyle{plain}
+\bibliography{references}  
 % Add more \include statements for additional pages as needed
 
 \end{document}
