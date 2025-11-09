@@ -8,6 +8,8 @@
 \usepackage{url}
 \usepackage{graphicx} 
 \usepackage{lmodern}
+\usepackage{natbib}
+
 \usebackgroundtemplate{
  \includegraphics[width=\paperwidth,height=\paperheight]{background.png}
 }
@@ -18,7 +20,6 @@
 
 \def\BibTeX{\textsc{Bib}\kern-.08em\TeX} 
 
-\newcommand{\footcite}[1]{\footnote{\tiny #1}}
 \newcommand{\umlet}{.5}
 \newcommand{\emp}[1]{\textit{\alert{#1}}}
 \newcommand{\kw}[1]{\mbox{\textbf{#1}}}
@@ -43,7 +44,7 @@
 }
 
 \newenvironment{program}{\begin{beamercolorbox}[rounded=true,shadow=true]{block body}\vspace{-4mm}}{\vspace{-2mm}\end{beamercolorbox}}
-
+\setbeamersize{text margin left=0.2cm, text margin right=0.2cm}
 \setbeamercolor{fvystup}{fg=white,bg=black}
 \newenvironment{vystup}{\begin{beamercolorbox}[rounded=true,shadow=true]{fvystup}}{\end{beamercolorbox}}
 
@@ -71,7 +72,9 @@
 
 \date{\footnotesize 10. november 2025}
 
-
+\renewcommand{\rmdefault}{lmroman}  
+\renewcommand{\sfdefault}{lmsans}  
+\renewcommand{\ttdefault}{lmtt}     
 
 
 \begin{document}
@@ -83,7 +86,6 @@
 
 \begin{frame}[fragile=singleslide]\frametitle{Introduction}
 The project focuses on the development of a drone-based system for agricultural monitoring using artificial intelligence.
-%maybe put a picture in the background here
 \end{frame}
 
 
@@ -97,7 +99,7 @@ The project focuses on the development of a drone-based system for agricultural 
 \begin{frame}[fragile=singleslide]\frametitle{Overview}
 \begin{itemize}
 \item Drones collect aerial data on crops which gets sent to the server and analyzed by an AI algorithm
-\item Detects pests, diseases, nutrient deficiencies, and irrigation needs.
+\item Decets pests, diseases, nutrient deficiencies, and irrigation needs.
 \item Provides actionable recommendations to farmers.
 \end{itemize}
 \end{frame}
@@ -116,17 +118,32 @@ The project focuses on the development of a drone-based system for agricultural 
 
 \begin{frame}[fragile=singleslide]\frametitle{System Architecture}
 \begin{itemize}
-  \item Drone platform: DJI Agriculture, PrecisionHawk, and other modern UAVs.
+  \item Drone platform : DJI Agriculture, PrecisionHawk, and other modern UAVs.
   \item Real-time image recognition and predictive analytics AI system.
   \item Combines multispectral drone imaging, weather data, and satellite imagery.
   \item Onboard AI for fast field-level analysis.
 \end{itemize}
 \end{frame}
 
-\begin{frame}[fragile=singleslide]\frametitle{Diagram slide}
-%\includegraphics[scale=.35]{diagram.pdf}
-%\ make a simple diagram with the drone platforms and other stuff we're using for the project
-%{\tiny Description\ldots}
+\begin{frame}[fragile=singleslide]\frametitle{Comparison of AI Models for Image Analysis}
+
+\begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{  
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{AI Model} & \textbf{Accuracy} & \textbf{Speed} & \textbf{Use Case} & \textbf{Requirements} \\ \hline
+CNN & High & Medium & Disease Detection & High (GPU) \\ \hline
+YOLO & Very High & Fast & Real-time Pest Detection & Moderate (GPU/CPU) \\ \hline
+Mask R-CNN & High & Slow & Object Segmentation, & High (GPU) \\ \hline
+ResNet & Very High & Slow & Deep Image Recognition & High (GPU) \\ \hline
+\end{tabular}
+}
+\caption{Comparison of Popular AI Models for Image Analysis}
+\end{table}
+\begin{tiny}
+    References: LeCun et al. (2015) \cite{lecun2015deep}, Redmon et al. (2016) \cite{redmon2016yolo}, He et al. (2017) \cite{he2017mask}, He et al. (2016) \cite{he2016resnet}.
+\end{tiny}
 \end{frame}
 
 \begin{frame}{Development Phases}
@@ -138,8 +155,8 @@ The project focuses on the development of a drone-based system for agricultural 
 \end{frame}
 
 \begin{center}
-\begin{frame}[fragile=singleslide]\frametitle{Budget slide}
-\includegraphics[scale=1.1]{expenses.png}
+\begin{frame}[fragile=singleslide]\frametitle{Budget}
+\includegraphics[scale=1]{expenses.png}
 %{\tiny Description\ldots}
 \end{frame}
 \end{center}
@@ -148,20 +165,31 @@ The project focuses on the development of a drone-based system for agricultural 
 
 \begin{frame}[fragile=singleslide]\frametitle{Market and Impact}
 \begin{itemize}
-  \item Growing EU agricultural drone market projected to reach \textbf{€7.46 billion by 2025}.
+  \item Growing EU agricultural drone market projected to reach \textbf{€7.46 billion by 2025}\cite{grandresearch2025}.
   \item 20\% expected increase in efficiency through precision monitoring.
-  \item Economic savings for farmers and environmental protection through reduced chemical use.
+  \item Economic savings for farmers and environmental protection through reduced chemical use. \cite{lecun2015deep}
   \item Strengthens Slovakia’s position in agricultural innovation.
 \end{itemize}
 \end{frame}
 
-% Summary
-\begin{frame}[fragile=singleslide]\frametitle{Conclusion}
+\section{Critical Analysis}
+\begin{frame}[fragile=singleslide]\frametitle{Comparison and Limitations}
 \begin{itemize}
-  \item AGRI-DRONE AI represents a fusion of AI, drone technology, and sustainable agriculture.
-  \item Contributes to food security, efficiency, and environmental responsibility.
-  \item Aligns with European innovation and climate goals.
+  \item \textbf{Compared to satellite monitoring:} Drones offer higher resolution and real-time data, but cover smaller areas.
+  \item \textbf{Compared to manual inspection:} Faster and more consistent, but requires technical setup and maintenance.
+  \item \textbf{Limitations:}
+    \begin{itemize}
+      \item Weather-dependent — drones can't fly in heavy rain or strong wind.
+      \item Battery life limits flight time and coverage.
+      \item Initial cost of equipment and training.
+      \item AI accuracy depends on quality and diversity of training data.
+    \end{itemize}
 \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile=singleslide]\frametitle{Sources}
+\bibliographystyle{plain}
+\bibliography{bruh}
 \end{frame}
 
 
