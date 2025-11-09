@@ -6,8 +6,13 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{url}
-
+\usepackage{graphicx} 
+\usepackage{lmodern}
+\usebackgroundtemplate{
+ \includegraphics[width=\paperwidth,height=\paperheight]{background.png}
+}
 \usepackage{listings}
+\setbeamertemplate{navigation symbols}{}
 
 \lstset{language=C++,basicstyle=\fontsize{8}{9.6}\selectfont,showstringspaces=false,columns=fullflexible,identifierstyle=\ttfamily,keywordstyle=\bfseries,showstringspaces=false,columns=fullflexible}
 
@@ -132,12 +137,12 @@ The project focuses on the development of a drone-based system for agricultural 
 \end{itemize}
 \end{frame}
 
-
+\begin{center}
 \begin{frame}[fragile=singleslide]\frametitle{Budget slide}
-%\includegraphics[scale=.35]{diagram.pdf}
-%\ Punch in the spending table or a diagram here
+\includegraphics[scale=1.1]{expenses.png}
 %{\tiny Description\ldots}
 \end{frame}
+\end{center}
 
 \section{Impact}
 
