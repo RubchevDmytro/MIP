@@ -1,0 +1,167 @@
+\documentclass{beamer}
+\usetheme{Warsaw}
+\usecolortheme{rose}
+\setbeamercovered{transparent}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+
+\usepackage{listings}
+
+\lstset{language=C++,basicstyle=\fontsize{8}{9.6}\selectfont,showstringspaces=false,columns=fullflexible,identifierstyle=\ttfamily,keywordstyle=\bfseries,showstringspaces=false,columns=fullflexible}
+
+\def\BibTeX{\textsc{Bib}\kern-.08em\TeX} 
+
+\newcommand{\footcite}[1]{\footnote{\tiny #1}}
+\newcommand{\umlet}{.5}
+\newcommand{\emp}[1]{\textit{\alert{#1}}}
+\newcommand{\kw}[1]{\mbox{\textbf{#1}}}
+\newcommand{\id}[1]{\texttt{#1}}
+\newcommand{\stl}{\guillemotleft}
+\newcommand{\str}{\guillemotright}
+
+\newcommand{\lsti}{\lstinline[basicstyle=\fontsize{10.5}{12.1}\selectfont]}
+
+\newcommand{\ssection}[1]{
+	\section{#1}
+	\begin{frame}[fragile=singleslide]\frametitle{}
+	\Huge #1
+	\end{frame}
+}
+
+\newcommand{\ssectionn}[1]{
+	\section*{#1}
+	\begin{frame}[fragile=singleslide]\frametitle{}
+	\Huge #1
+	\end{frame}
+}
+
+\newenvironment{program}{\begin{beamercolorbox}[rounded=true,shadow=true]{block body}\vspace{-4mm}}{\vspace{-2mm}\end{beamercolorbox}}
+
+\setbeamercolor{fvystup}{fg=white,bg=black}
+\newenvironment{vystup}{\begin{beamercolorbox}[rounded=true,shadow=true]{fvystup}}{\end{beamercolorbox}}
+
+\newenvironment{poznamka}{\begin{beamercolorbox}[rounded=true,shadow=false]{block body}}{\end{beamercolorbox}}
+
+\setbeamertemplate{footline}[page number]
+{
+%\insertpagenumber
+%\begin{beamercolorbox}{section in head/foot}
+%\vskip2pt\insertnavigation{\paperwidth}\vskip2pt
+%\end{beamercolorbox}%
+}
+
+
+
+\author{Stanislav Sasyn, Illya Schtenda, Fernando Andadas Gonzales, Dmytro Rubchev}
+\institute{
+	Institute of Informatics, Information Systems and Software Engineering\\
+	Fakulty of informatics and infotmation technology\\
+	Slovak University of Technology in Bratislava}
+
+\subtitle{\vspace{4mm} Engineering Methods 2025/2026}
+
+\title{AGRI-DRONE AI}
+
+\date{\footnotesize 10. november 2025}
+
+
+
+
+\begin{document}
+
+\begin{frame}[fragile=singleslide]
+\titlepage
+\end{frame}
+
+
+\begin{frame}[fragile=singleslide]\frametitle{Introduction}
+The project focuses on the development of a drone-based system for agricultural monitoring using artificial intelligence.
+%maybe put a picture in the background here
+\end{frame}
+
+
+\begin{frame}[fragile=singleslide]\frametitle{Agenda}
+\tableofcontents
+\end{frame}
+
+
+\section{Overwiew and goals}
+
+\begin{frame}[fragile=singleslide]\frametitle{Overview}
+\begin{itemize}
+\item Drones collect aerial data on crops which gets sent to the server and analyzed by an AI algorithm
+\item Decets pests, diseases, nutrient deficiencies, and irrigation needs.
+\item Provides actionable recommendations to farmers.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile=singleslide]\frametitle{Goals}
+\begin{itemize}
+\item Optimize precision agriculture in the Slovak Republic.
+\item Increase crop yields by \textbf{15–25\%}.
+\item Reduce pesticide use and promote sustainable farming practices.
+\end{itemize}
+\end{frame}
+
+
+
+\section{Realization}
+
+\begin{frame}[fragile=singleslide]\frametitle{System Architecture}
+\begin{itemize}
+  \item Drone platform : DJI Agriculture, PrecisionHawk, and other modern UAVs.
+  \item Real-time image recognition and predictive analytics AI system.
+  \item Combines multispectral drone imaging, weather data, and satellite imagery.
+  \item Onboard AI for fast field-level analysis.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile=singleslide]\frametitle{Diagram slide}
+%\includegraphics[scale=.35]{diagram.pdf}
+%\ make a simple diagram with the drone platforms and other stuff we're using for the project
+%{\tiny Description\ldots}
+\end{frame}
+
+\begin{frame}{Development Phases}
+\begin{itemize}
+  \item 1) Analysis of existing drone technologies and AI frameworks.
+  \item 2) Development of AI models for image recognition and predictive analytics.
+  \item 3) Field testing and performance measurement.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}[fragile=singleslide]\frametitle{Budget slide}
+%\includegraphics[scale=.35]{diagram.pdf}
+%\ Punch in the spending table or a diagram here
+%{\tiny Description\ldots}
+\end{frame}
+
+\section{Impact}
+
+\begin{frame}[fragile=singleslide]\frametitle{Market and Impact}
+\begin{itemize}
+  \item Growing EU agricultural drone market projected to reach \textbf{€7.46 billion by 2025}.
+  \item 20\% expected increase in efficiency through precision monitoring.
+  \item Economic savings for farmers and environmental protection through reduced chemical use.
+  \item Strengthens Slovakia’s position in agricultural innovation.
+\end{itemize}
+\end{frame}
+
+% Summary
+\begin{frame}[fragile=singleslide]\frametitle{Conclusion}
+\begin{itemize}
+  \item AGRI-DRONE AI represents a fusion of AI, drone technology, and sustainable agriculture.
+  \item Contributes to food security, efficiency, and environmental responsibility.
+  \item Aligns with European innovation and climate goals.
+\end{itemize}
+\end{frame}
+
+
+
+\end{document}
+
+
+
