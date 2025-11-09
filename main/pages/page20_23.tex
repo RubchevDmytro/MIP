@@ -1,9 +1,11 @@
 %SLOVAK
 \section*{VV-F – VECNÝ ZÁMER PROJEKTU}
 
-\begin {center}
+\begin{center}
 \textbf{\textcolor{blue}{Záväzná osnova pre aplikovaný výskum a vývoj}}
-\end {center}
+\end{center}
+
+\raggedright
 
 \begin{tabular}{|p{3cm}|p{10cm}|}
 \hline       
@@ -28,7 +30,7 @@ Projekt „Vývoj inteligentného dronového systému na poľnohospodárske moni
 Súčasné riešenia pre poľnohospodárske drony (napr. DJI Agriculture, PrecisionHawk) väčšinou poskytujú surové snímky, ktoré si vyžadujú offline spracovanie; náš koncept skracuje cyklus rozhodovania a znižuje závislosť od externých IT infraštruktúr.
 
 \subsection*{Stav techniky}
-Očakáva sa, že trh s poľnohospodárskymi dronmi v EÚ dosiahne do roku 2025 hodnotu \euro 7.46 miliardy EUR.. Výskumy ukazujú, že včasná detekcia škodcov môže znížiť stratu výnosov o 15-25 \% a znížiť spotrebu pesticídov až o 30 \%. Tím vychádza z predchádzajúcich národných pilotných štúdií v multispektrálnom monitorovaní pšenice a kukurice (2023-24) a interného prototypu na rozpoznávanie chorôb listov na základe CNN (accuracy $\approx 92\,\%$)
+Očakáva sa, že trh s poľnohospodárskymi dronmi v EÚ dosiahne do roku 2025 hodnotu \euro 7.46 miliardy EUR.. Výskumy ukazujú, že včasná detekcia škodcov môže znížiť stratu výnosov o 15-25 \% a znížiť spotrebu pesticídov až o 30 \%. Tím vychádza z predchádzajúcich národných pilotných štúdií v multispektrálnom monitorovaní pšenice a kukurice (2023-24) a interného prototypu na rozpoznávanie chorôb listov na základe CNN (presnosť $\approx 92\,\%$)
 .
 \subsection*{Ciele projektu:}
 \begin{itemize}
@@ -40,28 +42,19 @@ Očakáva sa, že trh s poľnohospodárskymi dronmi v EÚ dosiahne do roku 2025 
 \end{itemize}
 
 \subsection*{Fezibilita}
-Dostupnosť komerčných dronov a GPU, plus predchádzajúce dataset-y nášho laboratória, robí tieto ciele realistické v priebehu 36 mesiacov.
+Dostupnosť komerčných dronov a GPU, robí tieto ciele realistické v priebehu 36 mesiacov.
 
 \subsection*{Kľúčové výstupy hlavného výskumníka (posledných 5 rokov – ilustratívne):}
 \begin{itemize}
-    \item Prototyp CNN pre detekciu pšeničnej hrdze (TRL 5 $\to$ pokles straty výnosu $\downarrow 18\,\%$).
-    \item Spoluautor 2 článkov v rámci programu Horizon EÚ na tému AI v presnom poľnohospodárstve.
-    \item Open-source algoritmus na fúziu vlhkosti pôdy (prijatý 3 regionálnymi start-upmi).
+    \item ???
 \end{itemize}
 
 \subsection*{Kompetencie partnerov:}
 \begin{itemize}
-    \item Žiadateľská organizácia prináša testovacie polia a tím UAV-pilotov.
-    \item Spolupracujúca univerzita prispieva odbornými znalosťami v oblasti hlbokého učenia a diaľkového snímania.
-    \item Priemyselný partner (AgroTech Solutions s.r.o.) poskytne poradenstvo pri prenosu na trh.
+    \item ???
 \end{itemize}
 
-\subsection*{Zapojenie mladých výskumníkov:}
-4 PhD študentov (AI \& Robotika, vek $\leq 30$) a 2 MSc študenti v geoinformatike sa zapoja do označovania dát, overovania v teréne a úloh šírenia informácií.
-
-
 \section{Dopad}
-
 
 Očakáva sa, že systém zvýši výnosy plodín o 15-25 \% a zníži spotrebu pesticídov o 20-30 \%, čo prinesie hmatateľné ekonomické úspory (nižšie náklady na chemikálie, vyššia produkcia) a environmentálne výhody (menšie znečistenie pôdy a vody, príspevok k Zelenému paktu EÚ).
 
@@ -79,24 +72,23 @@ Zlepšená potravinová bezpečnosť, kvalitnejšie produkty, zníženie emisií
     \item Verejné dni poľa s poľnohospodárskymi organizáciami každú sezónu;
     \item Open-access publikácia hlavnej metodiky AI po kontrole IP;
     \item Workshopy s Ministerstvom pôdohospodárstva a regionálnymi družstvami pre usmernenia pri implementácii;
-    \item Popularizačné vedecké články a krátke vysvetľujúce videá pre verejnosť.
 \end{itemize}
 
 
-\section{Implementation}
+\section{Implementácia}
 
-\subsection*{Pracovný plán \& ciele (36 mesiacov):}
+\subsection*{Pracovný plán a ciele (36 mesiacov):}
 \begin{description}
     \item[P1 (M1-M6):] Prieskum trhu a dizajn systému $\to$ Špecifikácia pre drony + AI pipeline.
     \item[P2 (M4-M14):] Zber dát (multispektrálne lety, sieť senzorov pôdy) $\to$ Usporiadaný označený dataset $\geq 50$k snímok.
     \item[P3 (M8-M18):] Vývoj a tréning modelov $\to$ Základný AI model (mAP $\geq 0.80$) pre detekciu škodcov/chorôb.
     \item[P4 (M15-M26):] Integrácia hardvéru a nasadenie edge-AI $\to$ Prototyp UAV-AI platformy TRL 6.
-    \item[P5 (M20-M34):] Pilotné skúšky na 200 ha farmách $\to$ Overený výkon ($\geq 20$\% zisk výnosu oproti kontrolám).
+    \item[P5 (M24-M34):] Pilotné skúšky na 200 ha farmách $\to$ Overený výkon ($\geq 20$\% zisk výnosu oproti kontrolám).
     \item[P6 (M30-M36):] Finálna optimalizácia, používateľské príručky a balík pre prenos technológií$\to$ Softvérový prototyp + smernice..
 \end{description}
 
 \subsection*{Riadenie projektu}
-Riaditeľská komisia (PI + jeden zástupca každého partnera); mesačné hodnotenie pokroku; monitorovanie rizík pomocou cloudového PM nástroja.
+Mesačné hodnotenie pokroku; monitorovanie rizík pomocou cloudového PM nástroja.
 
 \subsection*{Riziká a zmiernenie}
 \begin{itemize}
@@ -106,10 +98,9 @@ Riaditeľská komisia (PI + jeden zástupca každého partnera); mesačné hodno
 \end{itemize}
 
 \subsection*{Adekvátnosť rozpočtu}
-45 \% vybavenie (drony, GPU server, senzory), 40 \% personál (AI výskumníci, odborníci na poľnohospodárstvo), 15 \% cestovanie, šírenie a popularizácia – v súlade s uvedenými cieľmi a pokrokom TRL.
+ 50 \% Mzdové náklady a ostatné osobné náklady, 15\%  Materiály (drony, GPU server, sensory),  5\% Priame náklady, 5\% Energie a popularizácia. 10 \% Nepriame náklady a služby, 10\% Zdravotné a sociálne poistenie , 5\% Cestovné náklady
 
-\subsection*{Existujúca infraštruktúra}
-Žiadateľ vlastní 2 testovacie polia (každé 30 ha), povolenie na lety dronov a základnú flotilu dronov; univerzitný partner prevádzkuje AI výpočtový cluster (200 TFLOPS) a laboratórium na spektrálnu kalibráciu.
+
 %ENGISH
 \newpage
 \section*{VV-F – MATERIAL INTENT OF THE PROJECT}
@@ -154,27 +145,13 @@ EU agriculture-drone market is forecast to reach \euro 7.46 billion by 2025. Res
 \end{itemize}
 
 \subsection*{Feasibility}
-Availability of commercial drones and GPUs plus our lab’s prior datasets make the objectives realistic within 36 months.
+Availability of commercial drones and GPUs make the objectives realistic within 36 months.
 
 \subsection*{Principal Investigator’s key outputs (last 5 years – illustrative):}
 \begin{itemize}
-    \item Prototype CNN for wheat-rust detection (TRL 5 $\to$ yield loss $\downarrow 18\,\%$)
-.
-    \item Co-author of 2 EU-Horizon papers on precision-agriculture AI.
-    \item Open-source soil-moisture fusion algorithm (adopted by 3 regional start-ups).
+    \item ???
 \end{itemize}
 
-\subsection*{Competence of partners:}
-\begin{itemize}
-    \item Applicant organisation brings agronomy test-fields and UAV-pilot team.
-    \item Co-operating university contributes expertise in deep-learning and remote-sensing.
-    \item Industrial partner (AgroTech Solutions s.r.o.) will advise on market transfer.
-\end{itemize}
-
-\subsection*{Involvement of young researchers:}
-4 PhD students (AI \& Robotics, age $\leq 30$) plus 2 MSc students in geoinformatics will join data-labelling, field-validation and dissemination tasks.
-
-% --- SECCIÓN 2 ---
 \section{Impact}
 
 The system is expected to raise crop yield by 15-25 \% and reduce pesticide consumption by 20-30 \%, bringing tangible economic savings (lower chemical cost, higher production) and environmental benefits (less soil and water contamination, contribution to EU Green Deal).
@@ -186,17 +163,15 @@ Faster detection of pest/disease outbreaks can save up to \euro 150-200/ha in tr
 Creates a transferable methodology for other EU regions and supports emerging climate-smart-farming services.
 
 \subsection*{Societal benefits}
-Improved food-security, higher-quality products, reduction of greenhouse-gas emissions from over-fertilisation, and new skilled jobs in drone operations and AI-data services.
+Improved food-security, higher-quality products, reduction of greenhouse-gas emissions from over-fertilisation.
 
 \subsection*{Maximising results \& communication}
 \begin{itemize}
     \item Public field-days with farmers’ associations each season;
     \item Open-access publication of core AI methodology after IP review;
     \item Workshops with Ministry of Agriculture and regional co-ops for adoption guidelines;
-    \item Popular-science articles and short explainer videos for the public.
 \end{itemize}
 
-% --- SECCIÓN 3 ---
 \section{Implementation}
 
 \subsection*{Work plan \& milestones (36 months):}
@@ -205,12 +180,12 @@ Improved food-security, higher-quality products, reduction of greenhouse-gas emi
     \item[WP2 (M4-M14):] Data collection (multispectral flights, soil-sensor network) $\to$ Curated labelled dataset $\geq 50$k images.
     \item[WP3 (M8-M18):] Model development \& training $\to$ Baseline AI model (mAP $\geq 0.80$) for pest/disease detection.
     \item[WP4 (M15-M26):] Hardware integration \& edge-AI deployment $\to$ Prototype UAV-AI platform TRL 6.
-    \item[WP5 (M20-M34):] Pilot-field trials on 200 ha farms $\to$ Validated performance ($\geq 20\,\%$ yield-gain vs. control).
+    \item[WP5 (M24-M34):] Pilot-field trials on 200 ha farms $\to$ Validated performance ($\geq 20\,\%$ yield-gain vs. control).
     \item[WP6 (M30-M36):] Final optimization, user-manuals \& technology-transfer package $\to$ Software prototype + guidelines.
 \end{description}
 
 \subsection*{Project management}
-Steering committee (PI + one rep per partner); monthly progress reviews; risk-log monitored in cloud-based PM tool.
+Monthly progress reviews; risk-log monitored in cloud-based PM tool.
 
 \subsection*{Risks \& mitigation}
 \begin{itemize}
@@ -220,7 +195,5 @@ Steering committee (PI + one rep per partner); monthly progress reviews; risk-lo
 \end{itemize}
 
 \subsection*{Budget adequacy}
-45 \% equipment (drones, GPU server, sensors), 40 \% personnel (AI researchers, agronomy experts), 15 \% travel, dissemination \& popularisation – proportionate to stated goals and TRL advancement.
+ 50 \% Wage and other personal costs, 15\% equipment (drones, GPU server, sensors),  5\% Direct costs, 5\% Energy expenses and popularization. 10 \% Indirect costs and services, 10\% Social and health insurance , 5\% travel costs. 
 
-\subsection*{Existing infrastructure}
-Applicant owns 2 test fields (30 ha each), UAV-flight-permit and basic drone fleet; university partner operates AI computing cluster (200 TFLOPS) and spectral calibration lab.
